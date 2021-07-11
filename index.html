@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Firebase Operations</title>
+        
+    </head>
+    <body>
+        <div class = "container">
+            Name: <input type="text" id = "uname" <br><br>
+            Roll: <input type ="text" id = "roll" <br><br>
+            Phone: <input type = "text" id = "phone"<br><br>
+            
+            <button id = "register">Register</button>
+            <button id =  "read">Read</button>
+            <button id =  "update">Update</button>
+            <button id = "delete">Delete</button>
+        </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    
+    <script>
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDpgQZapee9G6a28NS2-X7ev8FFOnT1UhY",
+    authDomain: "proj-b9d91.firebaseapp.com",
+    databaseURL: "https://proj-b9d91-default-rtdb.firebaseio.com",
+    projectId: "proj-b9d91",
+    storageBucket: "proj-b9d91.appspot.com",
+    messagingSenderId: "334682737003",
+    appId: "1:334682737003:web:c34d4d76b6d85538eae42e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="firebaseDemo.js">
+</script>
+</html>
